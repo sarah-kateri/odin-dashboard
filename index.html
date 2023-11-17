@@ -14,21 +14,21 @@
   <header class="header">
     <nav class="nav">
 
-      <div class="header-row">
+      <div class="header-row row">
         <div class="search">
           <img src="search.svg" alt="magnifying glass" class="icon-small">
-          <input type="search">
+          <input type="search" class="search-bar" size="40">
         </div>
         <div class="header-col">
           <img src="bell-alert-outline.svg" alt="notification bell" class="icon-small">
-          <img src="elephant.svg" alt="elephant icon" class="icon-large">
+          <img src="elephant.svg" alt="elephant icon" class="icon-large elephant">
           <h4>Morgan Oakley</h4>
         </div>
       </div>
 
-      <div class="header-row">  
+      <div class="header-row row-two">  
         <div class="header-col">
-          <img src="elephant.svg" alt="elephant icon" class="icon-medium">
+          <img src="elephant.svg" alt="elephant icon" class="icon-medium elephant">
           <div>
             <h6>Hi there,</h6>
             <h2>Morgan Oakley (@morgan)</h2>
@@ -46,39 +46,59 @@
 
   <section class="sidebar">
     <div class="sidebar-row">
-      <img src="view-dashboard.svg" alt="window-icon" class="icon-medium">
-      <h3>Dashboard</h3>
+      <div class="row">
+        <img src="view-dashboard.svg" alt="window-icon" class="icon-medium white">
+        <h3>Dashboard</h3>
+      </div>
     </div>
 
     <div class="sidebar-row">
-      <img src="home-account.svg" alt="home icon" class="icon-small">
-      <h4>Home</h4>
-      <img src="account.svg" alt="account icon" class="icon-small">
-      <h4>Profile</h4>
-      <img src="message.svg" alt="message icon" class="icon-small">
-      <h4>Messages</h4>
-      <img src="clock.svg" alt="clock icon" class="icon-small">
-      <h4>History</h4>
-      <img src="file.svg" alt="file icon" class="icon-small">
-      <h4>Tasks</h4>
-      <img src="account-group.svg" alt="people icon" class="icon-small">
-      <h4>Communities</h4>
+      <div class="row">
+        <img src="home-account.svg" alt="home icon" class="icon-small white">
+        <h4>Home</h4>
+      </div>
+      <div class="row">
+        <img src="account.svg" alt="account icon" class="icon-small white">
+        <h4>Profile</h4>
+      </div>
+      <div class="row">
+        <img src="message.svg" alt="message icon" class="icon-small white">
+        <h4>Messages</h4>
+      </div>
+      <div class="row">
+        <img src="clock.svg" alt="clock icon" class="icon-small white">
+        <h4>History</h4>
+      </div>
+      <div class="row">
+        <img src="file.svg" alt="file icon" class="icon-small white">
+        <h4>Tasks</h4>
+      </div>
+      <div class="row">
+        <img src="account-group.svg" alt="people icon" class="icon-small white">
+        <h4>Communities</h4>
+      </div>
     </div>
 
     <div class="sidebar-row">
-      <img src="cog.svg" alt="gear icon" class="icon-small">
-      <h4>Settings</h4>
-      <img src="help.svg" alt="question mark icon" class="icon-small">
-      <h4>Support</h4>
-      <img src="shield.svg" alt="shield icon" class="icon-small">
-      <h4>Privacy</h4>
+      <div class="row">
+        <img src="cog.svg" alt="gear icon" class="icon-small white">
+        <h4>Settings</h4>
+      </div>
+      <div class="row">
+        <img src="help.svg" alt="question mark icon" class="icon-small white">
+        <h4>Support</h4>
+      </div>
+      <div class="row">
+        <img src="shield.svg" alt="shield icon" class="icon-small white">
+        <h4>Privacy</h4>
+      </div>
     </div>
 
   </section>
 
   <section class="main">
     <div class="main-left">
-      <h3>My Projects</h3> 
+      <h3 class="row" >My Projects</h3> 
 
       <div class="cards-left">
         <div class="card">
@@ -163,49 +183,55 @@
     
     <div class="main-right">
       <div class="cards-right">
-        <h3>Announcements</h3>
-        
-        <div class="card-top-right">
-          <h5>Site Maintenance</h5>
-          <p class="card-right-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta 
-            eligendi neque?
-          </p>
-          <h5>Community Share Day</h5>
-          <p class="card-right-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta 
-            eligendi neq
-          <h5>Updated Privacy Policy</h5>
-          <p class="card-right-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta 
-            eligendi neq
-        </div>
+        <h3 class="row">Announcements</h3>
 
-        <h3>Trending</h3>
+          <div class="card-top-right">
+            <h5>Site Maintenance</h5>
+            <p class="card-right-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta 
+              eligendi neque?
+            </p>
+            <div class="line"></div>
+            <h5>Community Share Day</h5>
+            <p class="card-right-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta 
+              eligendi neque?</p>
+            <div class="line"></div>
+            <h5>Updated Privacy Policy</h5>
+            <p class="card-right-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta 
+              eligendi neque?</p>
+          </div>
+
+        <h3 class="row">Trending</h3>
         <div class="card-bottom-right">
-
-          <img src="fish.svg" alt="fish icon" class="icon-medium">
-          <div class="trending">  
-            <h5>@tegan</h5>
-            <p>World Peace Builder</p>
+          <div class="row">
+            <img src="fish.svg" alt="fish icon" class="icon-medium fish">
+            <div class="trending">  
+              <h5>@tegan</h5>
+              <p>World Peace Builder</p>
+            </div>
           </div>
-
-          <img src="rabbit.svg" alt="rabbit icon" class="icon-medium">
-          <div class="trending">
-            <h5>@morgan</h5>
-            <p>Super Cool Project</p>
+          <div class="row">
+            <img src="rabbit.svg" alt="rabbit icon" class="icon-medium rabbit">
+            <div class="trending">
+              <h5>@morgan</h5>
+              <p>Super Cool Project</p>
+            </div>
           </div>
-
-          <img src="bird.svg" alt="bird icon" class="icon-medium">
-          <div class="trending">
-            <h5>@kendall</h5>
-            <p>Life Changing App</p>
+          <div class="row">
+            <img src="bird.svg" alt="bird icon" class="icon-medium bird">
+            <div class="trending">
+              <h5>@kendall</h5>
+              <p>Life Changing App</p>
+            </div>
           </div>
-
-          <img src="snail.svg" alt="snail icon" class="icon-medium">
-          <div class="trending">
-            <h5>@alex</h5>
-            <p>No Traffic Maker</p>
+          <div class="row">
+            <img src="snail.svg" alt="snail icon" class="icon-medium snail">
+            <div class="trending">
+              <h5>@alex</h5>
+              <p>No Traffic Maker</p>
+            </div>
           </div>
 
         </div>
